@@ -1,0 +1,194 @@
+body{
+    background-color: gray;
+}
+.head{
+    border: 7px solid tomato ;
+    background-color: white;
+    color: rgb(139, 20, 40);
+    height: 140px;
+    width: 500px;
+    position: relative;
+    left: 380px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 8px 7px rgb(95, 34, 95);
+}
+h2{
+    text-shadow: 2px 2px 3px  rgb(168, 14, 40);
+}
+.mid{
+    border: 5px solid green;
+    padding: 5px;
+}
+.topleft{
+    border: 7px solid tomato ;
+    background-color: white;
+    color: rgb(44, 12, 63);
+    height: 230px;
+    width: 210px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 8px 7px rgb(70, 19, 141);
+}
+h3{
+    text-shadow: 2px 2px 3px  rgb(40, 9, 82);
+}
+.topright{
+    float:right;
+    border: 7px solid tomato ;
+    background-color: white;
+    color: rgb(44, 12, 63);
+    height: 230px;
+    width: 210px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 225px;
+    right: 10px;
+    /* left: 80vw;   */
+    box-shadow: 8px 7px rgb(70, 19, 141); 
+}
+img{
+    width: 209px;
+    height: 229px;
+}
+.bottomleft{
+    position: relative;
+    top: 100px;
+    border: 7px solid tomato ;
+    background-color: white;
+    color: rgb(44, 12, 63);
+    height: 230px;
+    width: 210px;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 8px 7px rgb(70, 19, 141);
+}
+h4{
+    text-shadow: 2px 2px 3px  rgb(40, 9, 82);
+} 
+.fill{
+    float: right;
+    position: relative;
+    bottom: 140px;
+    right: 10px;
+    border: 7px solid tomato ;
+    background-color: white;
+    color: rgb(44, 12, 63);
+    height: 230px;
+    width: 210px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 8px 7px rgb(70, 19, 141);
+}
+::placeholder{
+    text-align: center;
+}
+input{
+    width: 90px;
+}
+
+.grid-container{
+    text-shadow: none;
+    display: grid;
+    background-color: green;
+    border: 8px solid purple;
+    height: 43vw;
+    width: 65vw;
+    padding: 5px;
+    position: absolute;
+    left: 260px;
+    top: 850px;
+    grid-template-columns: auto auto auto auto ;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-item1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 5;
+    grid-row-end: 2;
+    text-shadow: none;
+}
+.grid-item2{
+    background-color: rgb(249, 249, 123);
+    margin: 10px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-end: 4;
+    text-shadow: none;
+}
+.grid-item3{
+    background-color: rgb(249, 249, 123);
+    margin: 10px;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 5;
+    grid-row-end: 4;
+    text-shadow: none;
+
+
+}
+.grid-item4{
+    background-color: rgb(249, 249, 123);
+    margin: 10px;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-end: 5;
+    grid-row-end: 6;
+    text-shadow: none;
+}
+p{
+    font-style:italic ;
+}
+
+
+.flex1{
+    background-color: greenyellow;
+    border: 8px solid red;
+    border-radius: 15px;
+    color: rgb(194, 6, 6);
+    font-style: italic;
+    display: flex;
+    font-size: 23px;
+    position: fixed;
+    top: 480px;
+    left: 400px;
+    width: 40vw;
+    height: 7vw;
+    font-weight: bold;
+    padding: 2px;
+    
+    box-shadow: 10px 10px purple;
+    justify-content: space-between;
+}
+
+.flex2{
+      font-size: 35px;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+}
+.flex3{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
